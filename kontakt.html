@@ -4,6 +4,68 @@
 <title>Kuke kool</title>
 <link rel="stylesheet" type="text/css" href="kukestyle.css">
 <!--stili oformlenija iz faila kukestyle.css-->
+<script type="text/javascript">
+timestr = "00:00:00";
+title=document.title;
+tid = 0;
+pause = 0;
+var to;
+var bcount;
+var tcount;
+function time(n) {
+	tid=window.setTimeout("time(1)",to);
+	today = new Date()
+	if(today.getMinutes() < 10) pad = "0"
+		else		    pad = "";
+	if(today.getSeconds() < 10) pads = "0"
+		else  		    pads = "";
+	timestr=today.getHours()+":"+pad+today.getMinutes()+":"+pads+today.getSeconds();
+	document.title = title+' '+timestr;
+	window.clearTimeout(tid);
+	tid=window.setTimeout("time()",to);
+}
+function start(x) {
+	f=x;
+	to=60;
+	time(x);
+}
+function cleartids() {
+	window.clearTimeout(tid);
+}
+</script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  var lahti
+  function vahetus(){
+  $('a#tekst1').slideToggle();
+  if(lahti){
+  lahti=false;
+  $('#nupp').val("Ava");
+  }else{
+  lahti=true;
+  $('#nupp').val("Sule");
+  }
+  
+}
+</script>
+<script type="text/javascript">
+  var lahti1
+  function vahetus1(){
+  $('a#tekst2').slideToggle();
+  if(lahti){
+  lahti1=false;
+  $('#nupp1').val("Ava");
+  }else{
+  lahti1=true;
+  $('#nupp1').val("Sule");
+  }
+  
+  
+}
+</script>
 </head>
 <body>
 <h1>Kuke KOOL</h1>
@@ -25,8 +87,8 @@
 <!--2.stroka-->
 	<tr>
 	<td colspan="5" class="suur">Kontakti direktoriga Kuke Kukk:
-	<br>tel 6000000
-	<br>aadress: Tehniline uus 256, Tallinn
+	<br>tel 58961243
+	<br>aadress: Sopruse pst 118, Tartu
 	</td>
 	</tr>
 
