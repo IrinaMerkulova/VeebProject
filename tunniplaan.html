@@ -4,6 +4,24 @@
 <title>Kuke kool</title>
 <link rel="stylesheet" type="text/css" href="kukestyle.css">
 <!--stili oformlenija iz faila kukestyle.css-->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  var lahti
+  function vahetus(){
+  $('a#tekst1').slideToggle();
+  if(lahti){
+  lahti=false;
+  $('#nupp').val("Ava");
+  }else{
+  lahti=true;
+  $('#nupp').val("Sule");
+  }
+  
+}
+</script>
 </head>
 <body>
 <h1>School</h1>
@@ -21,7 +39,7 @@
 	<tr>
 	<td><a href="uudised.html">Uudised</a></td>
 	<td><a href="kontakt.html">Kontakt</a></td>
-	<td><a href="tunniplaan.html">Tunniplaan</a></td>
+	<td><a href="tunniplaan.html" id="tekst1">Tunniplaan</a><input type="button" value="javascript" id="Nupp" onClick="vahetus()"></td>
 	<td><a href="opilased.html">Õpilased</a></td>
 	<td><a href="opetajad.html">Õpetajad</a></td>
 	</tr>
