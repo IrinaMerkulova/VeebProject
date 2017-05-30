@@ -3,13 +3,36 @@
 <title>Kuke kool</title>
 <link rel="stylesheet" type="text/css" href="kukestyle.css">
 <!--stili oformlenija iz faila kukestyle.css-->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">
+  </script>
+ <script type="text/javascript">
+ var lahti=true;
+  function vahetus(){
+	$('div#logo').slideToggle();
+	if(lahti){
+		lahti=false;
+		$('#nupp').val("Увидеть лого");
+	}
+	else {
+		lahti=true;
+		$('#nupp').val("Скрыть лого");	
+	}
+  
+  }
+  </script>
 </head>
 <body>
 <h1>Kuke KOOL</h1>
 <!-- razdel s id= logo-->
 <div id="logo">
-<img src="petuh.png">
+<img src="petushonok.png">
+</br>
+<input type="button" align="center" value="Скрыть лого" id="nupp" onClick="vahetus()">
 </div>
+
 <!-- razdel s id= tabel-->
 <div id="tabel">
 <table>
