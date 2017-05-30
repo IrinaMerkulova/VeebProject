@@ -2,17 +2,37 @@
 <head>
 <title>Kuke kool</title>
 <link rel="stylesheet" type="text/css" href="kukestyle.css">
+		  <script type="text/javascript">
+  var lahti=true;
+  function vahetus(){
+  $('div#tekst2').slideToggle();
+  if(lahti){
+  lahti=false;
+  $('#nupp2').val("unhide");
+  } else {
+  lahti=true;
+  $('#nupp2').val("hide");
+  }
+
+}
+
+  </script>
+		
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
 <!--stili oformlenija iz faila kukestyle.css-->
 </head>
 <body>
 <h2>Kuke KOOL</h2>
 <!-- razdel s id= logo-->
 <div id="logo">
-<img src="petuh.png">
+<img src="1.png">
 </div>
 <!-- razdel s id= tabel-->
 <div id="tabel">
 <table>
+<input type="button" value="hide" id="nupp2" onClick="vahetus()"></input>
+
+<div id="tekst2" style="position: relative; left: 100px; width: 300px;"><img src="1.png"></div>
 <!--1.stroka--> 
 	<tr>
 	<td><a href="uudised.html">Uudised</a></td>
