@@ -9,6 +9,12 @@ h1{
 text-align: center;
 letter-spacing: 0.6cm;
 }
+h2{
+text-align: center;
+letter-spacing: 0.6cm;
+color: #787878;
+background-color: #e8e8e8;
+}
 #tabel{
 float: left;
 }
