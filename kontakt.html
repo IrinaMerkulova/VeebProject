@@ -1,14 +1,54 @@
 ﻿<html>
 <head>
-<title>school</title>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">
+  </script>
+  <script type="text/javascript">
+  //скрипт скрытие текста
+   var lahtii=false;
+   var lahti=false;
+   
+  function vahetus(){
+	$( 'h2#yhg1').slideToggle();
+	if(lahti){
+		lahti=false;
+		$('#nupp').val("показать информацию");
+	}
+	else {
+		lahti=true;
+		$('#nupp').val("Скрыть информацию");	
+	}
+  }
+      function paremale(){
+	$( 'img#an').slideToggle();
+	if(lahtii){
+		lahtii=false;
+		$('img#an').animate({left:'0px'}, 2000);
+	}
+	else {
+		lahtii=true;
+		$('img#an').animate({left:'200px'}, 100);
+	}
+  }
+  
+  	
+  </script>
+<title id="yhg1">school</title>
+<input type="button" align="center" value="Скрыть информацию" id="nupp" onClick="vahetus()">
 <link rel="stylesheet" type="text/css" href="kukestyle.css">
 <!--stili oformlenija iz faila kukestyle.css-->
 </head>
-<body>
-<h2>school</h2>
+
+<body >
+<h2 id="yhg1">school</h2>
 <!-- razdel s id= logo-->
+<br>
 <div id="logo">
-<img src="petuh.png">
+<br><br>
+<img src="petuh.png" id="an">
+
 </div>
 <!-- razdel s id= tabel-->
 <div id="tabel">
