@@ -33,6 +33,29 @@ function cleartids() {
 </script>
 <body onload="start(document.forms[0])" onunload="cleartids()">
 <!--stili oformlenija iz faila kukestyle.css-->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  var lahti=false;
+  var lahti1=false;
+  function vahetus(){
+  $('img#li1').slideToggle();
+  if(lahti){
+  lahti=false;
+  $('#btn1').val("Скрыть информацию");
+  $('img#img1').animate({left:'29%'}, 200);
+  } else{
+	lahti=true;
+	$('#btn1').val("Открыть информацию");
+	$('img#img1').animate({left:'1%'}, 200);
+  }
+  
+  }
+  
+  </script>
+
 </head>
 <body bgcolor="red">
 <FORM>
@@ -69,7 +92,8 @@ function cleartids() {
 <!--vnutr jacheiki tablica 2 na 2-->
 <table class="vaike">
 <tr>
-	<td class="vaike"><img src="kukk1.jpg"></td>
+<td colspan="2" ><input type="button" value="Скрыть информацию" id="btn1" onClick="vahetus()">
+	<td class="vaike"><img id="li1" src="kukkk.jpg"></td>
 	<td class="vaike"><img src="kukk2.jpg"></td>
 </tr>
 <tr>

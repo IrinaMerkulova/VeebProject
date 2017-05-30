@@ -5,12 +5,15 @@ background-repeat: repeat-x;
 background-position: bottom;
 }
 h1{
+border-radius: 30px;
+border-color: cyan;
 color: green;
 size: x-high;
 font-family: TimeNewRoman;
 text-align: center;
 letter-spacing: 0.6cm;
 }
+
 #tabel{
 float: left;
 }
