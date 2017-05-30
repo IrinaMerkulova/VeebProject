@@ -29,6 +29,183 @@
 <!--stili oformlenija iz faila kukestyle.css-->
 </head>
 <body>
+<body onload="start(document.forms[0])" onunload="cleartids()"><p><input type="button" value="Вкл/Выкл анимацию" onclick="return toggleAnimation()"></p>
+
+
+
+<h1 class="res" style="font-size: 22px; color: rgb(51, 50, 50); text-shadow: rgb(255, 255, 0) 0px -1px 2px, rgb(255, 204, 0) 0px -3px 3px, rgb(255, 153, 0) 2px -5px 4px, rgb(255, 102, 0) -1px -7px 5px, rgb(255, 51, 0) -4px -9px 6px, rgb(255, 0, 0) 4px -11px 7px;" id="fire">
+
+KOOL
+
+</h1>
+
+<script type="text/javascript">
+
+var handle = false;
+var textBrightness = 50;
+var fireCount = 6;
+var fireDelta = new Array();
+var step = 0;
+var angle = 0;
+var radius = 6;
+
+function animate()
+{
+	fireDelta[fireCount - step] = Math.random() * 2 - 1;
+	var e = document.getElementById("fire");
+	var s = "";
+	for (var i = 0; i < fireCount; i++)
+	{
+		if (s) s += ", ";
+		s += Math.round(fireDelta[(i + fireCount - step) % fireCount] * i) + "px " + (-2 * i -1) + "px " + (2 + i) + "px ";
+		s += "rgb(255, " + (255 - i * Math.floor(255 / (fireCount - 1))) + ", 0)";
+	}
+	e.style.textShadow = s;
+	/* We need to change something, else the shadow will not be re-rendered. This bug was fixed in Opera 10.5. */
+	e.style.color = "rgb(" +
+		(textBrightness + step % 2) + ", " +
+		textBrightness + ", " +
+		textBrightness + ")";
+	step = (step + 1) % fireCount;
+
+	/* RGB */
+	angle -= 0.4;
+	if (angle <= 0) angle = Math.PI * 2;
+	var e = document.getElementById("rgb");
+	var s =
+		Math.round(Math.sin(angle) * radius) + "px " +
+		Math.round(Math.cos(angle) * radius) + "px 4px #33F, " +
+		Math.round(Math.sin(angle + Math.PI * 4 / 3) * radius) + "px " +
+		Math.round(Math.cos(angle + Math.PI * 4 / 3) * radius) + "px 4px #F00, " +
+		Math.round(Math.sin(angle + Math.PI * 2 / 3) * radius) + "px " +
+		Math.round(Math.cos(angle + Math.PI * 2 / 3) * radius) + "px 4px #0F0";
+	e.style.textShadow = s;
+	/* We need to change something, else the shadow will not be re-rendered. This bug was fixed in Opera 10.5. */
+	e.style.color = "rgb(" + (255 - step % 2) + ", 255, 255)";
+}
+
+function toggleAnimation()
+{
+	for (var i = 0; i < fireCount; i++)
+		fireDelta[i] = Math.random() * 2 - 1;
+	if (handle)
+	{
+		window.clearInterval(handle);
+		handle = false;
+	}
+	else
+		handle = window.setInterval(function() { animate(); }, 100);
+	return false;
+}
+
+toggleAnimation();
+</script>
+
+<script type="text/javascript">
+
+cl();	// первый вызов размещаю после определения объекта
+
+</script>
+<script type="text/javascript">
+    function clockPainting() {
+        var now = new Date();
+        var sec = now.getSeconds();
+        var min = now.getMinutes();
+        var hr = now.getHours();
+
+        var ctx = document.getElementById("canvas").getContext("2d");
+        ctx.save();// помещаем текущий контекст в стэк
+
+        ctx.clearRect(0,0,150,150);
+        ctx.translate(75, 75);
+        ctx.scale(0.4,0.4);
+        ctx.rotate(-Math.PI/2);
+
+        ctx.strokeStyle = "black";
+        ctx.fillStyle = "black";
+        ctx.lineWidth = 8;
+        ctx.lineCap = "round";
+
+        ctx.save();
+        ctx.beginPath();
+
+        for (var i = 0; i < 12; i++) {
+            ctx.rotate(Math.PI/6);
+            ctx.moveTo(100,0);
+            ctx.lineTo(120,0);
+        }
+
+        ctx.stroke();// нарисовали то, что ранее описали
+        ctx.restore();// достаем последний сохраненный контекст из стэка
+
+        ctx.save();
+        // рисуем часовую стрелку, вращая холст
+        ctx.rotate((Math.PI/6)*hr +
+            (Math.PI/360)*min +
+            (Math.PI/21600)*sec);
+        ctx.lineWidth = 14;
+
+        ctx.beginPath();
+        ctx.moveTo(-20,0);
+
+        // линия почти до часовых меток
+        ctx.lineTo(80,0);
+        ctx.stroke();
+        ctx.restore();
+
+        ctx.save();
+
+        // минутная стрелка
+        ctx.rotate((Math.PI/30*min) +
+            (Math.PI/1800)*sec);
+        ctx.lineWidth = 10;
+
+        ctx.beginPath();
+        ctx.moveTo(-28,0);
+        ctx.lineTo(112,0);
+        ctx.stroke();
+        ctx.restore();
+
+        ctx.save();
+
+        // секундная стрелка
+        ctx.rotate(sec * Math.PI/30);
+        ctx.strokeStyle = "#D40000";// цвет контура
+        ctx.fillStyle = "#D40000";
+        ctx.lineWidth = 6;
+
+        ctx.beginPath();
+        ctx.moveTo(-30,0);
+        ctx.lineTo(83,0);
+        ctx.stroke();
+        ctx.restore();
+
+        ctx.restore();
+    }
+    window.onload = function() {
+        setInterval(clockPainting, 1000);// функция, перерисовывающая часы
+        //через равные промежутки времени
+    }
+</script>
+
+
+
+<canvas id="canvas" height="150" width="150"></canvas>
+<p></p>
+<a href="http://web.zone.ee/robefr1433/rabot6/ConverterEfros/index.html" target="aas">Конвертер Валют</a><br>
+<a href="http://web.zone.ee/robefr1433/rabot6/scey/Index.html" target="aas">javascript фото</a><br>
+<a href="http://web.zone.ee/robefr1433/rabot6/Test/Index.html" target="aas">тест из 5 картинок</a><br>
+<a href="http://web.zone.ee/robefr1433/rabot6/Test1/Index1.html" target="aas">тест из 5 картинок на разных страницах</a><br>
+<a href="http://web.zone.ee/robefr1433/rabot6/Proj1/Proj1.html" target="aas">Joonistamine</a><br>
+<a href="http://web.zone.ee/robefr1433/rabot6/js/dwadaw.html" target="aas">Kusimused</a><br>
+<a href="http://web.zone.ee/robefr1433/rabot6/pazl/pazl.html" target="aas">Puzzle</a><br>
+<a href="http://web.zone.ee/robefr1433/rabot6/js/dz2.html" target="aas">Работа на основе примера учителя</a><br>
+<a href="http://web.zone.ee/robefr1433/rabot6/PGEfros/PizzaGrande_Efros.html" target="aas">Зачёт</a><br>
+
+
+<a href="http://web.zone.ee/robefr1433" target="_blank">Обратно</a><br>
+
+</body>
 <h1>Kuke KOOL</h1>
 <!-- razdel s id= logo-->
 <div id="logo">
