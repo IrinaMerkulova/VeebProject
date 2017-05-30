@@ -10,6 +10,12 @@ text-align: center;
 letter-spacing: 0.6cm;
 color:red;
 font-style:italic;
+border:5px;
+border-style:solid;
+border-color:#a8a8a8;
+border-radius: 20px 10px 20px 20px;
+text-align: center;
+
 }
 #tabel{
 float: left;
