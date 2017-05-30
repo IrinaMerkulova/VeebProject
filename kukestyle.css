@@ -6,8 +6,10 @@ background-repeat: repeat-x;
 background-position: bottom;
 }
 h1{
+color: green;
 text-align: center;
 letter-spacing: 0.6cm;
+text-decoration: underline;
 }
 #tabel{
 float: left;
