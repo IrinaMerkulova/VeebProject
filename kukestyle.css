@@ -11,7 +11,7 @@ letter-spacing: 0.6cm;
 h2{
 text-align: center;
 letter-spacing: 0.6cm;
-color: #787878;
+color: 	#00FFFF;
 background-color: #e8e8e8;
 }
 #tabel{
@@ -32,7 +32,7 @@ text-align: center;
 background-color: #d8d8d8;
 border:10px;
 border-style: double;
-border-color: #a8a8a8;
+border-color: 	#00FFFF;
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
@@ -43,7 +43,7 @@ display: block;
 background-color: #d8d8d8;
 border:10px;
 border-style: double;
-border-color: #a8a8a8;
+border-color: 	#00FFFF;
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
