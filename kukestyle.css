@@ -19,7 +19,6 @@ float: right;
 }
 
 table{
-
 border:0;
 width: 1000px;
 
@@ -29,7 +28,7 @@ text-align: center;
 background-color: #d8d8d8;
 border:10px;
 border-style: double;
-border-color: #a8a8a8;
+border-color: blue;
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
@@ -40,7 +39,7 @@ display: block;
 background-color: #d8d8d8;
 border:10px;
 border-style: double;
-border-color: #a8a8a8;
+border-color: blue;
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
