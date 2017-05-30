@@ -10,6 +10,11 @@ color: green;
 text-align: center;
 letter-spacing: 0.6cm;
 text-decoration: underline;
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px; 
+    background: #dddddd;
+    width: 300px;
+    border-radius: 25px;
 }
 #tabel{
 float: left;
