@@ -1,5 +1,5 @@
 body{
-background-color: #e8e8e8;
+background-color: yellow;
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
@@ -26,7 +26,7 @@ width: 1000px;
 }
 td{
 text-align: center;
-background-color: #d8d8d8;
+background-color: #00ff00;
 border:0px;
 margin: 20px;
 padding: 10px;
@@ -34,7 +34,7 @@ padding: 10px;
 td.suur{
 height: 500px;
 display: block;
-background-color: #d8d8d8;
+background-color: #00CED1;
 border:0px;
 margin: 20px;
 padding: 10px;
