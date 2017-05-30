@@ -1,4 +1,10 @@
-
+body{
+background-color: #e8e8e8;
+font-family: sans-serif, Helvetica, Arial;
+background-image: url("petuh.png");
+background-repeat: repeat-x;
+background-position: bottom;
+}
 h1{
 text-align: center;
 letter-spacing: 0.6cm;
@@ -9,8 +15,6 @@ float: left;
 #logo{
 float: right;
 }
-
-
 
 table{
 
@@ -74,7 +78,6 @@ border-radius: 140px 120px 140px 120px;
 
 font-family: georgia;
 }
-
 
 
 
