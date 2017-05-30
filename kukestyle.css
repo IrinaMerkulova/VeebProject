@@ -5,7 +5,7 @@ background-repeat: repeat-x;
 background-position: bottom;
 }
 h1{
-border-radius: 30px;
+border-style: circle;
 border-color: cyan;
 color: green;
 size: x-high;
