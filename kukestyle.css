@@ -1,8 +1,9 @@
 body{
 background-color: #e8e8e8;
-font-family: sans-serif, Helvetica, Arial;
+font-family: Times New Roman;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
+color: red;
 background-position: bottom;
 }
 h1{
