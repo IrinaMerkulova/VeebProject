@@ -4,9 +4,32 @@
 <title>Kuke kool</title>
 <link rel="stylesheet" type="text/css" href="kukestyle.css">
 <!--stili oformlenija iz faila kukestyle.css-->
+ <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  var lahti=false;
+  var lahti1=false;
+  function vahetus(){
+  $('h1#li1').slideToggle();
+  if(lahti){
+  lahti=false;
+  $('#btn1').val("Скрыть информацию");
+  $('img#img1').animate({left:'29%'}, 200);
+  } else{
+	lahti=true;
+	$('#btn1').val("Открыть информацию");
+	$('img#img1').animate({left:'1%'}, 200);
+  }
+  
+  }
+  
+  </script>
 </head>
 <body>
-<h1>Kuke school</h1>
+<td colspan="2" ><input type="button" value="Скрыть информацию" id="btn1" onClick="vahetus()">
+<h1 id="li1">Kuke school</h1>
 <!-- razdel s id= logo-->
 <div id="logo">
 <img src="petuh.png">
