@@ -26,10 +26,7 @@ width: 1000px;
 td{
 text-align: center;
 background-color: #d8d8d8;
-border:10px;
-border-style: double;
-border-color: blue;
-border-radius: 20px 10px 20px 20px;
+
 margin: 20px;
 padding: 10px;
 }
@@ -37,17 +34,14 @@ td.suur{
 height: 500px;
 display: block;
 background-color: #d8d8d8;
-border:10px;
-border-style: double;
-border-color: blue;
-border-radius: 20px 10px 20px 20px;
+
 margin: 20px;
 padding: 10px;
 text-align: left;
 font-family: georgia;
 }
 img{
-border:30px solid blue;
+
 border-image: url("raamipilt.png") 33% repeat;
 }
 a:link, a:active, a:visited{
@@ -71,10 +65,7 @@ list-style-position: center;
 td.vaike{
 width: 800px;
 background-color: #d8d8d8;
-border: 1px;
-border-style: solid;
-border-color: blue;
-border-radius: 140px 120px 140px 120px;
+
 
 
 font-family: georgia;
