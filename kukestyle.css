@@ -8,6 +8,8 @@ background-position: bottom;
 h1{
 text-align: center;
 letter-spacing: 0.6cm;
+font-size: 40px;
+color: Red;
 }
 #tabel{
 float: left;
