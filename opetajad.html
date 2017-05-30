@@ -2,18 +2,23 @@
 <head>
 <title>Kuke kool</title>
 <link rel="stylesheet" type="text/css" href="kukestyle.css">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  	<SCRIPT LANGUAGE="JavaScript">
   <script type="text/javascript">
-  window.onload = function() {
- 
-    alert( "Добро Пожаловать!" );
- 
-};
-  var lahti=false;
-  var lahti1=false;
-  function vahetus(){
-  $('h1#li1, h2#li1, h3#li1').slideToggle(); 
+  function paremale(){
+  $('img#img1').animate({left:'100px'}, 2000);
   }
-  
+  $(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown(3000);
+    });
+    $("#stop").click(function(){
+        $("#panel").stop();
+    });
+});
   </script>
 <!--stili oformlenija iz faila kukestyle.css-->
 </head>
@@ -24,7 +29,18 @@
 <img src="petuh.png">
 </div>
 <!-- razdel s id= tabel-->
-<div id="tabel">
+<table width="500" >
+		<tr>
+			
+			<td colspan="2" >
+			<div id="flip">Click to slide down panel</div>
+			<div id="panel">
+			<h1>Информация обо мне</h1>
+			Меня зовут Владимир Моторин. Я студент второго курса Таллиннского общеобразовательного учреждения. Мне 17 лет, живу в Таллинне. Я увлекаюсь компьютерными играми. Мне нравиться играть и я собираюсь в это развиватся. Из предметов мне больше всего нравятся: программирование, матиматика и базы данных.
+			</td>
+
+		</tr>
+		</table>
 <table>
 <!--1.stroka--> 
 	<tr>
