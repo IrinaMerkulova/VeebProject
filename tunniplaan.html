@@ -3,6 +3,27 @@
 <title>Kuke kool</title>
 <link rel="stylesheet" type="text/css" href="kukestyle.css">
 <!--stili oformlenija iz faila kukestyle.css-->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">
+  </script>
+  <script type="text/javascript">
+  //скрипт скрытие текста
+  var lahti=true;
+  function vahetus(){
+	$('iframe').slideToggle();
+	if(lahti){
+		lahti=false;
+		$('#nupp').val("Показать видео");
+	}
+	else {
+		lahti=true;
+		$('#nupp').val("Скрыть видео");	
+	}
+  
+  }
+  </script>
 </head>
 <body>
 <h1>Kuke SCHOOL</h1>
@@ -24,6 +45,7 @@
 <!--2.stroka-->
 	<tr>
 	<td colspan="5" class="suur">
+	<input type="button" align="center" value="Скрыть видео" id="nupp" onClick="vahetus()">
     <iframe width="560" height="315" src="http://www.youtube.com/embed/IjbQnY4j4cw" frameborder="0" allowfullscreen></iframe>
 	</td>
 	</tr>
