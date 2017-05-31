@@ -1,13 +1,14 @@
-body{ /*vse chto budet na ekrane*/
-background-color: #f00;
+body{ 
+background-color: #f00;/*vse chto budet na ekrane*/
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
 background-position: bottom;
 }
-h1{ /*objavlaem odin iz zagolovkov*/
-text-align: center;
+h1{
+text-align: center;/*objavlaem odin iz zagolovkov*/
 letter-spacing: 0.6cm;
+color: blue;
 }
 #tabel{
 float: left;
