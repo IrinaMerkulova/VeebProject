@@ -1,8 +1,11 @@
 body{
+	/* Цвет заднего фона*/
 background-color: #e8e8e8;
 font-family: sans-serif, Helvetica, Arial;
+/* Картинка на заднем фоне*/
 background-image: url("petuh.png");
 background-repeat: repeat-x;
+/* Позиция заднего фона*/
 background-position: bottom;
 }
 h1{
