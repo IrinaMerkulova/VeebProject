@@ -1,11 +1,116 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html>
 <head>
+<<<<<<< HEAD
 <title>Kana KOOL</title>
+=======
+>>>>>>> 1b1ac96a8f63e26771823dd53996b28005f13585
 <link rel="stylesheet" type="text/css" href="kukestyle.css">
 <!--stili oformlenija iz faila kukestyle.css-->
+<script type="text/javascript">
+timestr = "00:00:00";
+title=document.title;
+tid = 0;
+pause = 0;
+var to;
+var bcount;
+var tcount;
+function time(n) {
+tid=window.setTimeout("time(1)",to);
+today = new Date()
+if(today.getMinutes() < 10) pad = "0"
+else pad = "";
+if(today.getSeconds() < 10) pads = "0"
+else pads = "";
+timestr=today.getHours()+":"+pad+today.getMinutes()+":"+pads+today.getSeconds();
+document.title = title+' '+timestr;
+window.clearTimeout(tid);
+tid=window.setTimeout("time()",to);
+}
+function start(x) {
+f=x;
+to=60;
+time(x);
+}
+function cleartids() {
+window.clearTimeout(tid);
+}
+</script>
+<body onload="start(document.forms[0])" onunload="cleartids()">
 </head>
 <body>
+<<<<<<< HEAD
 <h1>Kana KOOL</h1>
+=======
+<script type="text/javascript">
+
+var handle = false;
+var textBrightness = 50;
+var fireCount = 6;
+var fireDelta = new Array();
+var step = 0;
+var angle = 0;
+var radius = 6;
+
+function animate()
+{
+	fireDelta[fireCount - step] = Math.random() * 2 - 1;
+	var e = document.getElementById("fire");
+	var s = "";
+	for (var i = 0; i < fireCount; i++)
+	{
+		if (s) s += ", ";
+		s += Math.round(fireDelta[(i + fireCount - step) % fireCount] * i) + "px " + (-2 * i -1) + "px " + (2 + i) + "px ";
+		s += "rgb(255, " + (255 - i * Math.floor(255 / (fireCount - 1))) + ", 0)";
+	}
+	e.style.textShadow = s;
+	/* We need to change something, else the shadow will not be re-rendered. This bug was fixed in Opera 10.5. */
+	e.style.color = "rgb(" +
+		(textBrightness + step % 2) + ", " +
+		textBrightness + ", " +
+		textBrightness + ")";
+	step = (step + 1) % fireCount;
+
+	/* RGB */
+	angle -= 0.4;
+	if (angle <= 0) angle = Math.PI * 2;
+	var e = document.getElementById("rgb");
+	var s =
+		Math.round(Math.sin(angle) * radius) + "px " +
+		Math.round(Math.cos(angle) * radius) + "px 4px #33F, " +
+		Math.round(Math.sin(angle + Math.PI * 4 / 3) * radius) + "px " +
+		Math.round(Math.cos(angle + Math.PI * 4 / 3) * radius) + "px 4px #F00, " +
+		Math.round(Math.sin(angle + Math.PI * 2 / 3) * radius) + "px " +
+		Math.round(Math.cos(angle + Math.PI * 2 / 3) * radius) + "px 4px #0F0";
+	e.style.textShadow = s;
+	/* We need to change something, else the shadow will not be re-rendered. This bug was fixed in Opera 10.5. */
+	e.style.color = "rgb(" + (255 - step % 2) + ", 255, 255)";
+}
+
+function toggleAnimation()
+{
+	for (var i = 0; i < fireCount; i++)
+		fireDelta[i] = Math.random() * 2 - 1;
+	if (handle)
+	{
+		window.clearInterval(handle);
+		handle = false;
+	}
+	else
+		handle = window.setInterval(function() { animate(); }, 100);
+	return false;
+}
+
+toggleAnimation();
+</script>
+
+<script type="text/javascript">
+
+cl();	// первый вызов размещаю после определения объекта
+
+</script>
+<h1 id="fire">Kuke KOOL</h1>
+>>>>>>> 1b1ac96a8f63e26771823dd53996b28005f13585
 <!-- razdel s id= logo-->
 <div id="logo">
 <img src="petuh.png">
@@ -27,7 +132,7 @@
 <!--vnutr jacheiki tablica 2 na 2-->
 <table class="vaike">
 <tr>
-	<td class="vaike"><img src="kukk1.jpg"></td>
+	<td class="vaike"><img src="1.png"></td>
 	<td class="vaike"><img src="kukk2.jpg"></td>
 </tr>
 <tr>

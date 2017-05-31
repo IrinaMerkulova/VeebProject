@@ -1,5 +1,8 @@
 body{
+<<<<<<< HEAD
 background-color: cyan;
+=======
+>>>>>>> 1b1ac96a8f63e26771823dd53996b28005f13585
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
@@ -39,7 +42,7 @@ display: block;
 background-color: #d8d8d8;
 border:10px;
 border-style: double;
-border-color: #a8a8a8;
+border-color:cyan;
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
