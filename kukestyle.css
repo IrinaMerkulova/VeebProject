@@ -62,7 +62,7 @@ text-decoration: underline; /*podcherkivanie teksta*/
 font-size: 20;
 }
 li {
-/*vmesto tochek - malen'kie kartinki*/
+/*vmesto tochek - malen'kie kartinku*/
 list-style-image: url("raamipilt.png");
 line-height: 100%;
 list-style-position: center;
@@ -72,7 +72,7 @@ width: 800px;
 background-color: #d8d8d8;
 border: 1px;
 border-style: solid;
-border-color: #a8a8a8;/*tsvet ramki*/
+border-color: #a8a8a8;/*tsvet ramkш*/
 border-radius: 60px; /*radius ramki*/
 
 
