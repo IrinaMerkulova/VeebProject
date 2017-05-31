@@ -43,7 +43,7 @@ border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
 text-align: left;
-font-family: georgia;
+font-family: georgia; /*here we can decide what font we will use*/
 }
 img{
 border:30px solid transparent;
