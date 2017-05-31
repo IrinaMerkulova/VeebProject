@@ -1,6 +1,10 @@
 body{
+<<<<<<< HEAD
 background-color:  	#7B68EE; /*цвет заднего фона*/
 font-family: sans-serif, Helvetica, Arial; /*изменение шрифта*/
+=======
+font-family: sans-serif, Helvetica, Arial;
+>>>>>>> 30f83f39de60a83c5d1b2f57342b04d92d9a63cb
 background-image: url("petuh.png");
 background-repeat: repeat-x;
 background-position: bottom;
@@ -25,10 +29,7 @@ width: 1000px;
 td{
 text-align: center;
 background-color: #d8d8d8;
-border:10px;
-border-style: double;
-border-color: #a8a8a8;
-border-radius: 20px 10px 20px 20px;
+border:none;
 margin: 20px;
 padding: 10px;
 }
@@ -36,17 +37,18 @@ td.suur{
 height: 500px;
 display: block;
 background-color: #d8d8d8;
-border:10px;
-border-style: double;
-border-color: #a8a8a8;
-border-radius: 20px 10px 20px 20px;
+border:none;
 margin: 20px;
 padding: 10px;
 text-align: left;
 font-family: georgia;
 }
 img{
+<<<<<<< HEAD
 border:30px solid transparent;
+=======
+border:none;
+>>>>>>> 30f83f39de60a83c5d1b2f57342b04d92d9a63cb
 }
 a:link, a:active, a:visited{
 color: #787878;
@@ -69,10 +71,14 @@ list-style-position: center;
 td.vaike{
 width: 800px;
 background-color: #d8d8d8;
+<<<<<<< HEAD
 border: 1px;
 border-style: solid;
 border-color: #a8a8a8;
 border-radius: 60px 60px 60px 60px;
+=======
+border: none;
+>>>>>>> 30f83f39de60a83c5d1b2f57342b04d92d9a63cb
 
 
 font-family: georgia;
