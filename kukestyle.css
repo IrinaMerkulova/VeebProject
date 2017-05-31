@@ -1,12 +1,12 @@
 body{
-background-color: #e8e8e8;
+background-color: #e8e8e8;// izmenitj cvet zadnego fona 
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
 background-position: bottom;
 }
 h1{
-text-align: center;
+text-align: center;//viravnivanie teksta po centru
 letter-spacing: 0.6cm;
 }
 #tabel{
@@ -50,7 +50,7 @@ border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
 }
 a:link, a:active, a:visited{
-color: #787878;
+color: #787878;//izmenitj cvet ssilki
 font-family: serif;
 text-decoration: none; /*podcherkivanie teksta*/
 }
@@ -73,7 +73,7 @@ background-color: #d8d8d8;
 border: 1px;
 border-style: solid;
 border-color: #a8a8a8;
-border-radius: 140px 120px 140px 120px;
+border-radius: 70px 60px 70px 60px;
 
 
 font-family: georgia;
