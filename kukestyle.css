@@ -1,16 +1,23 @@
 body{
+<<<<<<< HEAD
 	/* Цвет заднего фона*/
 background-color: lavenderblush;
 font-family: sans-serif, Helvetica, times;
 /* Картинка на заднем фоне*/
+=======
+font-family: sans-serif, Helvetica, Arial;
+>>>>>>> cdf84561eadaad667f2d36d3e1606d9dbf1cea05
 background-image: url("petuh.png");
 background-repeat: repeat-x;
 /* Позиция заднего фона*/
 background-position: bottom;
+
 }
 h1{
 text-align: center;
 letter-spacing: 0.6cm;
+font-size: 40px;
+color: Red;
 }
 #tabel{
 float: left;
@@ -20,7 +27,6 @@ float: right;
 }
 
 table{
-
 border:0;
 width: 1000px;
 
@@ -30,10 +36,11 @@ text-align: center;
 background-color: #d8d8d8;
 border:10px;
 border-style: double;
-border-color: #a8a8a8;
+border-color: blue;
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
+border-radius: 20px 20px 20px 20px;
 }
 td.suur{
 height: 500px;
@@ -41,7 +48,7 @@ display: block;
 background-color: turquoise;
 border:10px;
 border-style: double;
-border-color: #a8a8a8;
+border-color: blue;
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
@@ -50,7 +57,6 @@ font-family: georgia;
 }
 img{
 border:30px solid transparent;
-border-image: url("raamipilt.png") 33% repeat;
 }
 a:link, a:active, a:visited{
 color: #787878;

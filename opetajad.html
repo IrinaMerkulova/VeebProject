@@ -1,17 +1,68 @@
-﻿<html>
+﻿<!DOCTYPE HTML>
+<html>
 <head>
 <title>Kana KOOL</title>
 <link rel="stylesheet" type="text/css" href="kukestyle.css">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  	<SCRIPT LANGUAGE="JavaScript">
+<script type="text/javascript">
+timestr = "00:00:00";
+title=document.title;
+tid = 0;
+pause = 0;
+var to;
+var bcount;
+var tcount;
+function time(n) {
+	tid=window.setTimeout("time(1)",to);
+	today = new Date()
+	if(today.getMinutes() < 10) pad = "0"
+		else		    pad = "";
+	if(today.getSeconds() < 10) pads = "0"
+		else  		    pads = "";
+	timestr=today.getHours()+":"+pad+today.getMinutes()+":"+pads+today.getSeconds();
+	document.title = title+' '+timestr;
+	window.clearTimeout(tid);
+	tid=window.setTimeout("time()",to);
+}
+function start(x) {
+	f=x;
+	to=60;
+	time(x);
+}
+function cleartids() {
+	window.clearTimeout(tid);
+}
+</script>
+  </script>
 <!--stili oformlenija iz faila kukestyle.css-->
 </head>
 <body>
+<<<<<<< HEAD
 <h1>Kana KOOL</h1>
+=======
+<h1>school</h1>
+>>>>>>> cdf84561eadaad667f2d36d3e1606d9dbf1cea05
 <!-- razdel s id= logo-->
 <div id="logo">
 <img src="git_logo.png">
 </div>
 <!-- razdel s id= tabel-->
-<div id="tabel">
+<table width="500" >
+		<tr>
+			
+			<td colspan="2" >
+			<div id="flip">Click to slide down panel</div>
+			<div id="panel">
+			<h1>Информация обо мне</h1>
+			Меня зовут Владимир Моторин. Я студент второго курса Таллиннского общеобразовательного учреждения. Мне 17 лет, живу в Таллинне. Я увлекаюсь компьютерными играми. Мне нравиться играть и я собираюсь в это развиватся. Из предметов мне больше всего нравятся: программирование, матиматика и базы данных.
+			</td>
+
+		</tr>
+		</table>
 <table>
 <!--1.stroka--> 
 	<tr>
