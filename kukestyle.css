@@ -1,16 +1,29 @@
 body{
+<<<<<<< HEAD
 /*cvet zadnego fona*/
 background-color: coral;
 font-family: sans-serif, Helvetica, TimesNewRoman;
+=======
+font-family: sans-serif, Helvetica, Arial;
+>>>>>>> a6f043cf0b3776dc1a015e32d2e775460ccb2726
 background-image: url("petuh.png");
 background-repeat: repeat-x;
 background-position: bottom;
 }
 h1{
+<<<<<<< HEAD
 /*raspolowenie teksta po centru*/
+=======
+border-style: circle;
+border-color: cyan;
+color: green;
+size: x-high;
+font-family: TimeNewRoman;
+>>>>>>> a6f043cf0b3776dc1a015e32d2e775460ccb2726
 text-align: center;
 letter-spacing: 0.6cm;
 }
+
 #tabel{
 float: left;
 }
@@ -20,17 +33,13 @@ float: right;
 
 table{
 
-border:0;
+border:2 px;
 width: 1000px;
-
+border-color: cyan;
 }
 td{
 text-align: center;
 background-color: #d8d8d8;
-border:10px;
-border-style: double;
-border-color: #a8a8a8;
-border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
 }
@@ -40,18 +49,25 @@ display: block;
 background-color: #d8d8d8;
 border:10px;
 border-style: double;
-border-color: #a8a8a8;
+border-color: cyan;
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
 text-align: left;
 font-family: georgia;
 }
+<<<<<<< HEAD
 img{
 /*ramki dlja kartinki razmer */
 border:30px solid transparent;
 
 }
+=======
+/*img{
+border:30px solid transparent;
+border-image: url("raamipilt.png") 33% repeat;
+}*/
+>>>>>>> a6f043cf0b3776dc1a015e32d2e775460ccb2726
 a:link, a:active, a:visited{
 color: #787878;
 font-family: serif;
@@ -73,10 +89,14 @@ list-style-position: center;
 td.vaike{
 width: 800px;
 background-color: #d8d8d8;
-border: 1px;
+/*border: 1px;
 border-style: solid;
 border-color: #a8a8a8;
+<<<<<<< HEAD
 border-radius: 60px 60px 60px 60px;
+=======
+border-radius: 140px 120px 140px 120px;*/
+>>>>>>> a6f043cf0b3776dc1a015e32d2e775460ccb2726
 
 
 font-family: georgia;
