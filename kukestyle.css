@@ -45,10 +45,6 @@ padding: 10px;
 text-align: left;
 font-family: georgia;
 }
-img{
-border:30px solid transparent;
-border-image: url("raamipilt.png") 33% repeat;
-}
 a:link, a:active, a:visited{
 color: #787878;/* font color*/
 font-family: serif;
@@ -78,8 +74,6 @@ border-radius: 60px 60px 60px 60px;
 
 font-family: georgia;
 }
-
-
 
 
 
