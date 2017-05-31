@@ -1,5 +1,5 @@
 body{
-background-color: yellow;
+background-color: #e8e8e8;
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
@@ -46,20 +46,20 @@ text-align: left;
 font-family: georgia;
 }
 img{
-
+border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
 }
 a:link, a:active, a:visited{
-color: #787878;/*cvet*/
+color: #787878;
 font-family: serif;
 text-decoration: none; /*podcherkivanie teksta*/
 }
 
 a:hover{
 color: #282828;
-font-family: serif;/*wrift teksta*/
+font-family: serif;
 text-decoration: underline; /*podcherkivanie teksta*/
-font-size: 20;/*razmet teksta*/
+font-size: 20;
 }
 li {
 /*vmesto tochek - malen'kie kartinki*/
@@ -73,7 +73,7 @@ background-color: #d8d8d8;
 border: 1px;
 border-style: solid;
 border-color: #a8a8a8;
-border-radius: 60px 60px 60px 60px;
+border-radius: 140px 120px 140px 120px;
 
 
 font-family: georgia;
