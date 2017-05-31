@@ -1,5 +1,5 @@
 body{
-background-color: #e8e8e8;
+background-color: darkred;
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
@@ -50,9 +50,9 @@ border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
 }
 a:link, a:active, a:visited{
-color: #787878;
+color: #787878;  /*cvet ssilok*/
 font-family: serif;
-text-decoration: none; /*podcherkivanie teksta*/
+text-decoration: none; /*ubrano podcherkivanie teksta*/
 }
 
 a:hover{
@@ -70,7 +70,7 @@ list-style-position: center;
 td.vaike{
 width: 800px;
 background-color: #d8d8d8;
-border: 1px;
+border: 60px;
 border-style: solid;
 border-color: #a8a8a8;
 border-radius: 140px 120px 140px 120px;
