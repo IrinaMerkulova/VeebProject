@@ -33,12 +33,12 @@ margin: 20px;
 padding: 10px;
 }
 td.suur{
-height: 500px;
+height: 500px; /* visota*/
 display: block;
 background-color: #d8d8d8;
 border:10px;
 border-style: double;
-border-color: #a8a8a8;
+border-color: #a8a8a8; /*border color*/
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
@@ -50,7 +50,7 @@ border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
 }
 a:link, a:active, a:visited{
-color: #787878;
+color: #787878;/* font color*/
 font-family: serif;
 text-decoration: none; /*podcherkivanie teksta*/
 }
