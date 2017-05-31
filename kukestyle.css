@@ -4,6 +4,7 @@ font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
 background-position: bottom;
+/* главная*/
 }
 h1{
 text-align: center;
@@ -20,7 +21,7 @@ table{
 
 border:0;
 width: 1000px;
-
+/* таблица*/
 }
 td{
 text-align: center;
@@ -46,13 +47,13 @@ text-align: left;
 font-family: georgia;
 }
 img{
-border:30px solid transparent;
+border:30px solid transparent;/* прозрачный*/
 border-image: url("raamipilt.png") 33% repeat;
 }
 a:link, a:active, a:visited{
 color: #787878;
 font-family: serif;
-text-decoration: none; /*podcherkivanie teksta*/
+text-decoration: none; /*подчеркиевание текса*/
 }
 
 a:hover{
