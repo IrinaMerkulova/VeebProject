@@ -1,7 +1,7 @@
 body{
 /*cvet zadnego fona*/
 background-color: coral;
-font-family: sans-serif, Helvetica, Arial;
+font-family: sans-serif, Helvetica, TimesNewRoman;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
 background-position: bottom;
