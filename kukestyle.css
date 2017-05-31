@@ -10,7 +10,7 @@ text-align: center;
 letter-spacing: 0.6cm;
 }
 #tabel{
-float: left;
+float: left; /* Raspolozhenie tablicq*/
 }
 #logo{
 float: right;
@@ -47,7 +47,7 @@ font-family: georgia;
 }
 img{
 border:30px solid transparent;
-border-image: url("raamipilt.png") 33% repeat;
+border-image: url("raamipilt.png") 33% repeat; /* vstavka kartinki vmesto ramki*/
 }
 a:link, a:active, a:visited{
 color: #787878;
@@ -71,8 +71,8 @@ td.vaike{
 width: 800px;
 background-color: #d8d8d8;
 border: 1px;
-border-style: solid;
-border-color: #a8a8a8;
+border-style: solid; /* Stil ramki*/
+border-color: #a8a8a8; 
 border-radius: 60px 60px 60px 60px;
 
 
