@@ -1,4 +1,5 @@
 body{
+/*cvet zadnego fona*/
 background-color: #e8e8e8;
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
@@ -6,6 +7,7 @@ background-repeat: repeat-x;
 background-position: bottom;
 }
 h1{
+/*raspolowenie teksta po centru*/
 text-align: center;
 letter-spacing: 0.6cm;
 }
@@ -46,6 +48,7 @@ text-align: left;
 font-family: georgia;
 }
 img{
+/*ramki dlja kartinki razmer */
 border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
 }
