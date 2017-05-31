@@ -1,13 +1,13 @@
 body{
-background-color: #e8e8e8;
+background-color: #e8e8e8; /*Tsvet zadnego plana*/
 font-family: sans-serif, Helvetica, Arial;
-background-image: url("petuh.png");
+background-image: url("petuh.png"); /*Kartinka zadnego plana*/
 background-repeat: repeat-x;
-background-position: bottom;
+background-position: bottom; /*Pozitsija*/
 }
 h1{
-text-align: center;
-letter-spacing: 0.6cm;
+text-align: center; /*raspolazenie teksta*/
+letter-spacing: 0.6cm; /*otstuplenie ot teksta*/
 }
 #tabel{
 float: left;
@@ -18,8 +18,8 @@ float: right;
 
 table{
 
-border:0;
-width: 1000px;
+border:0; 
+width: 1000px; /*shirina*/
 
 }
 td{
@@ -33,7 +33,7 @@ margin: 20px;
 padding: 10px;
 }
 td.suur{
-height: 500px;
+height: 500px; /*visota*/
 display: block;
 background-color: #d8d8d8;
 border:10px;
