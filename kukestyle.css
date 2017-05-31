@@ -43,10 +43,10 @@ border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
 text-align: left;
-font-family: georgia;
+font-family: georgia; /* Шрифт */
 }
 img{
-border:30px solid transparent;
+border:30px solid transparent; /* Рамка примененная к картинке */
 border-image: url("raamipilt.png") 33% repeat;
 }
 a:link, a:active, a:visited{
@@ -56,7 +56,7 @@ text-decoration: none; /*podcherkivanie teksta*/
 }
 
 a:hover{
-color: #282828;
+color: #282828;/* Цвет */
 font-family: serif;
 text-decoration: underline; /*podcherkivanie teksta*/
 font-size: 20;
@@ -73,7 +73,7 @@ background-color: #d8d8d8;
 border: 1px;
 border-style: solid;
 border-color: #a8a8a8;
-border-radius: 140px 120px 140px 120px;
+border-radius: 60px 60px 60px 60px;
 
 
 font-family: georgia;
