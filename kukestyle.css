@@ -56,10 +56,10 @@ text-decoration: none; /*podcherkivanie teksta*/
 }
 
 a:hover{
-color: #282828;
-font-family: serif;
+color: #282828;/*cvet*/
+font-family: serif;/*wrift teksta*/
 text-decoration: underline; /*podcherkivanie teksta*/
-font-size: 20;
+font-size: 20;/*razmer teksta*/
 }
 li {
 /*vmesto tochek - malen'kie kartinki*/
