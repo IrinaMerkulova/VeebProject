@@ -27,7 +27,7 @@ width: 1000px;
 
 }
 td{
-text-align: center;
+text-align: width;
 background-color: #d8d8d8;
 border:10px;
 border-style: double;
