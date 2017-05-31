@@ -2,6 +2,7 @@ body{
 background-color: grey;
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
+color: blue;
 background-repeat: repeat-x;
 background-position: bottom;
 }
