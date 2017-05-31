@@ -8,6 +8,7 @@ background-position: bottom;
 h1{
 text-align: center;//viravnivanie teksta po centru
 letter-spacing: 0.6cm;
+background-text-color: #FF0000;
 }
 #tabel{
 float: left;
@@ -15,7 +16,10 @@ float: left;
 #logo{
 float: right;
 }
+title{
 
+color: #FF0000;
+}
 table{
 
 border:0;
