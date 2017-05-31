@@ -1,7 +1,7 @@
 body{
 	/* Цвет заднего фона*/
 background-color: lavenderblush;
-font-family: sans-serif, Helvetica, Arial;
+font-family: sans-serif, Helvetica, times;
 /* Картинка на заднем фоне*/
 background-image: url("petuh.png");
 background-repeat: repeat-x;
