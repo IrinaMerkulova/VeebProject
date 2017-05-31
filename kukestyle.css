@@ -50,7 +50,7 @@ font-family: georgia;
 img{
 /*ramki dlja kartinki razmer */
 border:30px solid transparent;
-border-image: url("raamipilt.png") 33% repeat;
+
 }
 a:link, a:active, a:visited{
 color: #787878;
