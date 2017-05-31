@@ -33,9 +33,9 @@ margin: 20px;
 padding: 10px;
 }
 td.suur{
-height: 500px;
+height: 500px; 
 display: block;
-background-color: #d8d8d8;
+background-color: #d8d8d8; /*here we can change the background color*/
 border:10px;
 border-style: double;
 border-color: #a8a8a8;
