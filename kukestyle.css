@@ -1,12 +1,12 @@
 body{
 background-color: #e8e8e8;
 font-family: sans-serif, Helvetica, Arial;
-background-image: url("petuh.png");
+background-image: url("petuh.png");/*kartinka na zadnem fone*/
 background-repeat: repeat-x;
 background-position: bottom;
 }
 h1{
-text-align: center;
+text-align: center;/*võravnivanie teksta*/
 letter-spacing: 0.6cm;
 }
 #tabel{
@@ -26,7 +26,7 @@ td{
 text-align: center;
 background-color: #d8d8d8;
 border:10px;
-border-style: double;
+border-style: double;/*stil ramki*/
 border-color: #a8a8a8;
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
