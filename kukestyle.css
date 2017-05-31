@@ -8,7 +8,6 @@ background-position: bottom;
 h1{
 text-align: center;//viravnivanie teksta po centru
 letter-spacing: 0.6cm;
-background-text-color: #FF0000;
 }
 #tabel{
 float: left;
@@ -49,10 +48,7 @@ padding: 10px;
 text-align: left;
 font-family: georgia;
 }
-img{
-border:30px solid transparent;
-border-image: url("raamipilt.png") 33% repeat;
-}
+
 a:link, a:active, a:visited{
 color: #787878;//izmenitj cvet ssilki
 font-family: serif;
