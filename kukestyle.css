@@ -50,16 +50,16 @@ border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
 }
 a:link, a:active, a:visited{
-color: #787878;
+color: #787878;/*cvet*/
 font-family: serif;
 text-decoration: none; /*podcherkivanie teksta*/
 }
 
 a:hover{
 color: #282828;
-font-family: serif;
+font-family: serif;/*wrift teksta*/
 text-decoration: underline; /*podcherkivanie teksta*/
-font-size: 20;
+font-size: 20;/*razmet teksta*/
 }
 li {
 /*vmesto tochek - malen'kie kartinki*/
