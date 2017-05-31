@@ -35,7 +35,7 @@ padding: 10px;
 td.suur{
 height: 500px; /*visota*/
 display: block;
-background-color: #d8d8d8;
+background-color: #ccff66;
 border:10px;
 border-style: double;
 border-color: #a8a8a8;
@@ -71,7 +71,7 @@ td.vaike{
 width: 800px;
 background-color: #d8d8d8;
 border: 1px;
-border-style: dashed;
+border-style: solid;
 border-color: #a8a8a8;
 border-radius: 60px 60px 60px 60px;
 
