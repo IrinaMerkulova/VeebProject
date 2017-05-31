@@ -1,11 +1,46 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html>
 <head>
+<<<<<<< HEAD
 <title>Kana kool</title>
+=======
+>>>>>>> 3dd4e41f844fa54b123432b51d5614350a98caf9
 <link rel="stylesheet" type="text/css" href="kukestyle.css">
 <!--stili oformlenija iz faila kukestyle.css-->
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+timestr = "00:00:00";
+title=document.title;
+tid = 0;
+pause = 0;
+var to;
+var bcount;
+var tcount;
+function time(n) {
+	tid=window.setTimeout("time(1)",to);
+	today = new Date()
+	if(today.getMinutes() < 10) pad = "0"
+		else		    pad = "";
+	if(today.getSeconds() < 10) pads = "0"
+		else  		    pads = "";
+	timestr=today.getHours()+":"+pad+today.getMinutes()+":"+pads+today.getSeconds();
+	document.title = title+' '+timestr;
+	window.clearTimeout(tid);
+	tid=window.setTimeout("time()",to);
+}
+function start(x) {
+	f=x;
+	to=60;
+	time(x);
+}
+function cleartids() {
+	window.clearTimeout(tid);
+}
+</script>
+<body onload="start(document.forms[0])" onunload="cleartids()">
 </head>
 <body>
-<h1>Kuke KOOL</h1>
+<h1>Kuke school</h1>
 <!-- razdel s id= logo-->
 <div id="logo">
 <img src="petuh.png">

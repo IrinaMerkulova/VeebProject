@@ -8,6 +8,14 @@ background-position: bottom;
 h1{
 text-align: center;/*võravnivanie teksta*/
 letter-spacing: 0.6cm;
+color:red;
+font-style:italic;
+border:5px;
+border-style:solid;
+border-color:#a8a8a8;
+border-radius: 20px 10px 20px 20px;
+text-align: center;
+
 }
 #tabel{
 float: left;
@@ -26,7 +34,11 @@ td{
 text-align: center;
 background-color: #d8d8d8;
 border:10px;
+<<<<<<< HEAD
 border-style: double;/*stil ramki*/
+=======
+border-style: none;
+>>>>>>> 3dd4e41f844fa54b123432b51d5614350a98caf9
 border-color: #a8a8a8;
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
@@ -37,8 +49,8 @@ height: 500px;
 display: block;
 background-color: #d8d8d8;
 border:10px;
-border-style: double;
-border-color: #a8a8a8;
+border-style: none;
+border-color: #aaaaff;
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
