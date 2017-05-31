@@ -1,5 +1,5 @@
 body{
-background-color: #e8e8e8;
+background-color: cyan;
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
@@ -72,8 +72,8 @@ width: 800px;
 background-color: #d8d8d8;
 border: 1px;
 border-style: solid;
-border-color: #a8a8a8;
-border-radius: 140px 120px 140px 120px;
+border-color: #a8a8a8;/*tsvet ramki*/
+border-radius: 60px; /*radius ramki*/
 
 
 font-family: georgia;
