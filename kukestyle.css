@@ -12,15 +12,18 @@ letter-spacing: 0.6cm;
 }
 #tabel{
 float: left;
+/*размещение таблицы*/
 }
 #logo{
 float: right;
 }
+/*размещение лого*/
 
 table{
 
 border:0;
 width: 1000px;
+/*размер таблицы*/
 
 }
 td{
