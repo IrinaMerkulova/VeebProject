@@ -1,11 +1,11 @@
-body{
+body{ /*vse chto budet na ekrane*/
 background-color: #e8e8e8;
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
 background-position: bottom;
 }
-h1{
+h1{ /*objavlaem odin iz zagolovkov*/
 text-align: center;
 letter-spacing: 0.6cm;
 }
@@ -45,7 +45,7 @@ padding: 10px;
 text-align: left;
 font-family: georgia;
 }
-img{
+img{ /*parametri dlja kartinki*/
 border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
 }
