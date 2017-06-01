@@ -38,11 +38,11 @@ display: block;
 background-color: #d8d8d8;
 border:10px;
 border-style: double;
-border-color: #a8a8a8;
+border-color: #a8a8a8; 
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
-text-align: left;
+text-align: left;/ шрифт
 font-family: georgia;
 }
 img{
@@ -69,9 +69,9 @@ list-style-position: center;
 }
 td.vaike{
 width: 800px;
-background-color: #d8d8d8;
+background-color: #d8d8d8; / цвет ячейке
 border: 1px;
-border-style: solid;
+border-style: solid; / стиль границе
 border-color: #a8a8a8;
 border-radius: 60px 60px 60px 60px;
 
