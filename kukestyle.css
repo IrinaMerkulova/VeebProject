@@ -35,7 +35,7 @@ padding: 10px;
 td.suur{
 height: 500px;
 display: block;
-background-color: #d8d8d8;
+background-color: #d8d8d8; /* fon jacheiki*/
 border:10px;
 border-style: double;
 border-color: #a8a8a8;
@@ -50,7 +50,7 @@ border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
 }
 a:link, a:active, a:visited{
-color: #787878;
+color: #787878; /* cvet ssqlok*/
 font-family: serif;
 text-decoration: none; /*podcherkivanie teksta*/
 }
