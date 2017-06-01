@@ -50,7 +50,7 @@ border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
 }
 a:link, a:active, a:visited{
-color: #787878;
+color: #787878; /*цвеи ссылок*/
 font-family: serif;
 text-decoration: none; /*podcherkivanie teksta*/
 }
@@ -64,8 +64,8 @@ font-size: 20;
 li {
 /*vmesto tochek - malen'kie kartinki*/
 list-style-image: url("raamipilt.png");
-line-height: 100%;
-list-style-position: center;
+line-height: 100%; /*высота заголовка*/
+list-style-position: center; /*место где находится заголовок*/
 }
 td.vaike{
 width: 800px;
