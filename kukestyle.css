@@ -1,7 +1,7 @@
 body{
 background-color: #e8e8e8;
-font-family: sans-serif, Helvetica, Arial;
-background-image: url("petuh.png");
+font-family: sans-serif, Helvetica, Arial; /*Shrift teksta*/
+background-image: url("petuh.png"); /*zadnaja kartinka*/
 background-repeat: repeat-x;
 background-position: bottom;
 }
@@ -56,7 +56,7 @@ text-decoration: none; /*podcherkivanie teksta*/
 }
 
 a:hover{
-color: #282828;
+color: #282828; /*cvet ssqlok*/
 font-family: serif;
 text-decoration: underline; /*podcherkivanie teksta*/
 font-size: 20;
@@ -68,11 +68,11 @@ line-height: 100%;
 list-style-position: center;
 }
 td.vaike{
-width: 800px;
-background-color: #d8d8d8;
+width: 800px; 
+background-color: #d8d8d8; /*fon jacheiki*/
 border: 1px;
 border-style: solid;
-border-color: #a8a8a8;
+border-color: #a8a8a8; 
 border-radius: 60px 60px 60px 60px;
 
 
