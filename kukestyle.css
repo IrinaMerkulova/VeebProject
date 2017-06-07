@@ -15,7 +15,7 @@ float: left;
 #logo{
 float: right;
 }
-
+/*stilizatsija tablic*/
 table{
 
 border:0;
@@ -49,6 +49,7 @@ img{
 border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
 }
+/*stili ssylok. Cvet,shrift,oformlenie shrifta*/
 a:link, a:active, a:visited{
 color: #787878;
 font-family: serif;
@@ -75,7 +76,7 @@ border-style: solid;
 border-color: #a8a8a8;
 border-radius: 60px;
 
-
+/*shrift*/
 font-family: georgia;
 }
 
