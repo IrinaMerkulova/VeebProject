@@ -1,9 +1,9 @@
 body{
-background-color: #e8e8e8;
+background-color: #e8e8e8; /* tsvet fona */
 font-family: sans-serif, Helvetica, Arial;
-background-image: url("petuh.png");
+background-image: url("petuh.png");/* katrinka dlja fona*/
 background-repeat: repeat-x;
-background-position: bottom;
+background-position: bottom; /*raspolozhenie fona po tsentru*/
 }
 h1{
 text-align: center;
