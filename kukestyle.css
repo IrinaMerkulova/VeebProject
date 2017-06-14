@@ -5,13 +5,16 @@ background-image: url("petuh.png");
 background-repeat: repeat-x;
 background-position: bottom;
 }
+ /* cveta,shrifty,pozicija backgrounda*/
 h1{
 text-align: center;
 letter-spacing: 0.6cm;
 }
+ /* table to the left*/
 #tabel{
 float: left;
 }
+ /* Logo places at the right*/
 #logo{
 float: right;
 }
