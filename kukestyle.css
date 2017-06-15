@@ -33,7 +33,7 @@ margin: 20px;
 padding: 10px;
 }
 td.suur{
-height: 500px;
+height: 500px;/*izmenenija visoty*/
 display: block;
 background-color: #d8d8d8;
 border:10px;
@@ -50,7 +50,7 @@ border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
 }
 a:link, a:active, a:visited{
-color: #787878;
+color: #787878;/*cvet*/
 font-family: serif;
 text-decoration: none; /*podcherkivanie teksta*/
 }
@@ -73,7 +73,7 @@ background-color: #d8d8d8;
 border: 1px;
 border-style: solid;
 border-color: #a8a8a8;
-border-radius: 60px 60px 60px 60px;
+border-radius: 60px 60px 60px 60px;/*izmenenija radiusa*/ 
 
 
 font-family: georgia;
