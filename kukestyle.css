@@ -1,12 +1,12 @@
 body{
-background-color: #e8e8e8;
+background-color: #e8e8e8; /*cvet zadnego fona*/
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
 background-position: bottom;
 }
-h1{
-text-align: center;
+h1{/* zagolovok*/
+text-align: center;/* gde budet rasspalagatsa text*/
 letter-spacing: 0.6cm;
 }
 #tabel{
@@ -35,7 +35,7 @@ padding: 10px;
 td.suur{
 height: 500px;
 display: block;
-background-color: #d8d8d8;
+background-color: #d8d8d8;/* tsvet fona*/
 border:10px;
 border-style: double;
 border-color: #a8a8a8;
