@@ -1,7 +1,6 @@
 body{
 background-color: green;
 font-family: sans-serif, Helvetica, Arial;
-background-image: url("petuh.png");
 background-repeat: repeat-x;
 background-position: bottom;
 }
@@ -75,7 +74,7 @@ width: 800px;
 background-color: #d8d8d8;
 border: 1px;
 border-style: solid;
-border-color: #a8a8a8;
+border-color: blue;
 border-radius: 60px;
 
 
