@@ -4,6 +4,7 @@ font-family: sans-serif, Helvetica, Arial;
 background-image: url("untitled.png"); /* задает картинку как фон*/ 
 background-repeat: repeat-x;
 background-position: bottom;
+font-size: 20px;
 }
 h1{
 text-align: center; /*Выравнивает текст по центру */
