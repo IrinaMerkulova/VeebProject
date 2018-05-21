@@ -1,5 +1,5 @@
 body{
-background-color: #e8e8e8; /*Задает цвет заднего фона для всего файла*/
+background-color: lightgrey; /*Задает цвет заднего фона для всего файла*/
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png"); /* задает картинку как фон*/ 
 background-repeat: repeat-x;
