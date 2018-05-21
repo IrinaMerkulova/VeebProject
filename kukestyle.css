@@ -4,6 +4,7 @@ font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
 background-position: bottom;
+background-color: gray;
 }
 h1{
 text-align: center;
@@ -31,7 +32,13 @@ border-color: #a8a8a8;
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
+
 }
+
+.menu {
+	display: block;
+}
+
 td.suur{
 height: 500px;
 display: block;
@@ -74,6 +81,7 @@ border: 1px;
 border-style: solid;
 border-color: #a8a8a8;
 border-radius: 140px 120px 140px 120px;
+border-radius: 60px;
 
 
 font-family: georgia;
