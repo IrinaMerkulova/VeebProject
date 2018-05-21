@@ -1,5 +1,5 @@
 body{
-background-color: black;
+background-color: black; /* Установка цвета для фона */
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
@@ -23,7 +23,7 @@ width: 1000px;
 
 }
 td{
-text-align: center;
+text-align: center; /* Выравнивание текста по центру контейнера */
 background-color: #d8d8d8;
 border:10px;
 border-style: double;
@@ -36,7 +36,7 @@ td.suur{
 height: 500px;
 display: block;
 background-color: #d8d8d8;
-border:10px;
+border:10px; /* Установление толщины рамки */
 border-style: double;
 border-color: #a8a8a8;
 border-radius: 20px 10px 20px 20px;
