@@ -8,6 +8,7 @@ background-position: bottom;
 h1{
 text-align: center; /*Выравнивает текст по центру */
 letter-spacing: 0.6cm;
+color: blue;
 }
 #tabel{
 float: left;
