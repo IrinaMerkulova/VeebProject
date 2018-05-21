@@ -49,6 +49,7 @@ font-family: georgia;
 img{
 border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
+width: 300px;
 }
 a:link, a:active, a:visited{
 color: #787878;
