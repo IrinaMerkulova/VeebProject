@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html> 
+﻿
 <html>
 <head>
 <title>Kana kool</title>
@@ -26,12 +26,12 @@ echo "The time is " . date("h:i:sa");
 <table>
 
 	<tr>
-	<td><a href="uudised.php">Uudised</a></td>
-	<td><a href="kontakt.php">Kontakt</a></td>
-	<td><a href="tunniplaan.php">Tunniplaan</a></td>
-	<td><a href="opilased.php">Õpilased</a></td>
-	<td><a href="opetajad.php">Õpetajad</a></td>
-	</tr>
+  <li><a href="uudised.php">Uudised</a></li>
+  <li><a href="kontakt.php">Kontakt</a></li>
+  <li><a href="tunniplaan.php">Tunniplaan</a></li>
+  <li><a href="opilased.php">Õpilased</a></li>
+  <li><a href="opetajad.php">Õpetajad</a></li>
+   </tr>
 
 	<tr>
 	<td colspan="5" class="suur">
