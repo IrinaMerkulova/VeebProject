@@ -1,12 +1,12 @@
 body{
-background-color: #e8e8e8;
-font-family: sans-serif, Helvetica, Arial;
-background-image: url("petuh.png");
+background-color: #e8e8e8; /* Замена фона цветом */
+font-family: sans-serif, Helvetica, Arial; 
+background-image: url("petuh.png"); /* замена фона фотографией */
 background-repeat: repeat-x;
 background-position: bottom;
 }
 h1{
-text-align: center;
+text-align: center; /* выравнивает текст по центру */
 letter-spacing: 0.6cm;
 }
 #tabel{
@@ -45,7 +45,7 @@ padding: 10px;
 text-align: left;
 font-family: georgia;
 }
-img{
+img{ 
 border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
 }
