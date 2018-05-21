@@ -1,10 +1,10 @@
 body{
 background-color: #f2e6ff;
-/*изменение цвета заднего фона*/
+
 font-family: sans-serif, Helvetica, Arial;
-/* установка определённого шрифта для текста*/
+
 background-image: url("");
-/* установка изображение на задниий фон*/
+
 background-repeat: repeat-x;
 background-position: bottom;
 }
@@ -56,17 +56,17 @@ border-image: url("raamipilt.png") 33% repeat;
 a:link, a:active, a:visited{
 color: #787878;
 font-family: serif;
-text-decoration: none; /*podcherkivanie teksta*/
+text-decoration: none; 
 }
 
 a:hover{
 color: #282828;
 font-family: serif;
-text-decoration: underline; /*podcherkivanie teksta*/
+text-decoration: underline; 
 font-size: 20;
 }
 li {
-/*vmesto tochek - malen'kie kartinki*/
+
 list-style-image: url("raamipilt.png");
 line-height: 100%;
 list-style-position: center;
