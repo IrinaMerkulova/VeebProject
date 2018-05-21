@@ -1,5 +1,5 @@
 body{
-background-color: black; /* Установка цвета для фона */
+background-color: black;
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
@@ -23,7 +23,7 @@ width: 1000px;
 
 }
 td{
-text-align: center; /* Выравнивание текста по центру контейнера */
+text-align: center;
 background-color: #d8d8d8;
 border:10px;
 border-style: double;
@@ -36,7 +36,7 @@ td.suur{
 height: 500px;
 display: block;
 background-color: #d8d8d8;
-border:10px; /* Установление толщины рамки */
+border:10px;
 border-style: double;
 border-color: #a8a8a8;
 border-radius: 20px 10px 20px 20px;
@@ -52,17 +52,16 @@ border-image: url("raamipilt.png") 33% repeat;
 a:link, a:active, a:visited{
 color: #787878;
 font-family: serif;
-text-decoration: none; /*podcherkivanie teksta*/
+text-decoration: none;
 }
 
 a:hover{
 color: #282828;
 font-family: serif;
-text-decoration: underline; /*podcherkivanie teksta*/
+text-decoration: underline;
 font-size: 20;
 }
 li {
-/*vmesto tochek - malen'kie kartinki*/
 list-style-image: url("raamipilt.png");
 line-height: 100%;
 list-style-position: center;
