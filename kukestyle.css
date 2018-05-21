@@ -81,7 +81,10 @@ border-radius: 60px;
 
 font-family: georgia;
 }
-
+   p {
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 11pt;
+   }
 
 
 
