@@ -71,8 +71,11 @@ td.vaike{
 width: 800px;
 background-color: #d8d8d8;
 border: 1px;
+/* Стиль рамки*/
 border-style: solid;
+/* Цвет рамки*/
 border-color: #a8a8a8;
+/*Радиус рамки*/
 border-radius: 60px;
 
 font-family: georgia;
