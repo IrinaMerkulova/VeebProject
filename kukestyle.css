@@ -1,7 +1,10 @@
 body{
 background-color: #e8e8e8;
+/*изменение цвета заднего фона*/
 font-family: sans-serif, Helvetica, Arial;
+/* установка определённого шрифта для текста*/
 background-image: url("petuh.png");
+/* установка изображение на задниий фон*/
 background-repeat: repeat-x;
 background-position: bottom;
 }
