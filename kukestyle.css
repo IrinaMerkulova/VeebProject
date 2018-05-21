@@ -4,6 +4,7 @@ body{
 	/*background-image: url("petuh.png");*/ /*Фоновое изображение для body*/
 	background-repeat: repeat-x;
 	background-position: bottom;
+	font-size: 12px;
 
 }
 h1{
