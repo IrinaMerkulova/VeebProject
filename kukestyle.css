@@ -1,7 +1,7 @@
 body{
 	background-color: #E0E0E0; /*Цвет фона для body*/
 	font-family: sans-serif, Helvetica, Arial; /*Устанавливается шрифт для body*/
-	background-image: url("petuh.png"); /*Фоновое изображение для body*/
+	/*background-image: url("petuh.png");*/ /*Фоновое изображение для body*/
 	background-repeat: repeat-x;
 	background-position: bottom;
 
