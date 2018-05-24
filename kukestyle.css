@@ -19,7 +19,7 @@ float: right;
 table{
 
 border:0;
-width: 1000px;
+width: 1000px; /*This is table width*/
 
 }
 td{
@@ -56,7 +56,7 @@ text-decoration: none; /*podcherkivanie teksta*/
 }
 
 a:hover{
-color: #282828;
+color: #282828; /*This is text color"*/
 font-family: serif;
 text-decoration: underline; /*podcherkivanie teksta*/
 font-size: 20;
@@ -76,7 +76,7 @@ border-color: #a8a8a8;
 border-radius: 60px 120px 140px 120px;
 
 
-font-family: georgia;
+font-family: georgia; /*This is Georgia font style*/
 }
 
 
