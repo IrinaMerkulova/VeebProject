@@ -36,9 +36,9 @@ td.suur{
 height: 500px;
 display: block;
 background-color: #d8d8d8;
-border:10px;
+border:10px; /* tolshina ramki*/
 border-style: double;
-border-color: #a8a8a8;
+border-color: #a8a8a8; /* cvet ramki*/
 border-radius: 20px 10px 20px 20px;
 margin: 20px;
 padding: 10px;
@@ -59,7 +59,7 @@ a:hover{
 color: #282828;
 font-family: serif;
 text-decoration: underline; /*podcherkivanie teksta*/
-font-size: 20;
+font-size: 20; /*razmer shrifta*/
 }
 li {
 /*vmesto tochek - malen'kie kartinki*/
