@@ -1,5 +1,5 @@
 body{
-background-color: #e8e8e8;  /*цвет фона*/
+background-color: blue;  /*цвет фона*/
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png"); /* картинка фона*/
 background-repeat: repeat-x;
