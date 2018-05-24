@@ -1,12 +1,12 @@
 body{
-background-color: #e8e8e8;
+background-color: #e8e8e8;  /*цвет фона*/
 font-family: sans-serif, Helvetica, Arial;
-background-image: url("petuh.png");
+background-image: url("petuh.png"); /* картинка фона*/
 background-repeat: repeat-x;
-background-position: bottom;
+background-position: bottom;  
 }
 h1{
-text-align: center;
+text-align: center;  /* выравнивание текста по центру*/
 letter-spacing: 0.6cm;
 }
 #tabel{
