@@ -7,7 +7,9 @@ background-position: bottom;
 }
 h1{
 text-align: center; /*centrovka texta*/
+font-size: 20;
 letter-spacing: 2.0cm;
+
 }
 #tabel{
 float: left;
@@ -59,7 +61,7 @@ a:hover{
 color: #282828;
 font-family: serif;
 text-decoration: underline; /*podcherkivanie teksta*/
-font-size: 20;
+font-size: 25;
 }
 li {
 /*vmesto tochek - malen'kie kartinki*/
