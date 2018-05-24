@@ -50,7 +50,7 @@ border:30px solid transparent;
 border-image: url("raamipilt.png") 33% repeat;
 }
 a:link, a:active, a:visited{
-color: #787878;
+color: #787878; /* cvet aktivnoj i posewennoj ssilki */
 font-family: serif;
 text-decoration: none; /*podcherkivanie teksta*/
 }
@@ -59,7 +59,7 @@ a:hover{
 color: #282828;
 font-family: serif;
 text-decoration: underline; /*podcherkivanie teksta*/
-font-size: 20;
+font-size: 20px; /* razmer wrifta */
 }
 li {
 /*vmesto tochek - malen'kie kartinki*/
@@ -68,7 +68,7 @@ line-height: 100%;
 list-style-position: center;
 }
 td.vaike{
-width: 800px;
+width: 800px; /* wirina */
 background-color: #d8d8d8;
 border: 1px;
 border-style: solid;
