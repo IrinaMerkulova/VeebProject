@@ -7,7 +7,7 @@ background-position: bottom;
 }
 h1{
 text-align: center; /*centrovka texta*/
-letter-spacing: 0.6cm;
+letter-spacing: 2.0cm;
 }
 #tabel{
 float: left;
@@ -35,7 +35,7 @@ padding: 10px;
 td.suur{
 height: 500px;
 display: block;
-background-color: #d8d8d8;
+background-color: #afafaf;
 border:10px;
 border-style: double;
 border-color: #a8a8a8;
