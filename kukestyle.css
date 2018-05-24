@@ -1,5 +1,5 @@
 body{
-background-color: salmon;
+background-color: salmon; /* цвет фона body*/
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
@@ -29,7 +29,7 @@ border:10px;
 border-style: double;
 border-color: #a8a8a8;
 border-radius: 20px 10px 20px 20px;
-margin: 20px;
+margin: 20px; /*расстояние от края страницы до границы элемента*/
 padding: 10px;
 }
 td.suur{
@@ -55,7 +55,7 @@ font-family: serif;
 text-decoration: none; /*podcherkivanie teksta*/
 }
 
-a:hover{
+a:hover{ /*оформление элемента а (ссылки) при наведении курсора мыши*/
 color: #282828;
 font-family: serif;
 text-decoration: underline; /*podcherkivanie teksta*/
