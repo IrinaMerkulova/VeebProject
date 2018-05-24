@@ -1,7 +1,7 @@
 body{
 background-color: cornsilk; /* цвет фона body*/
 font-family: sans-serif, Helvetica, Arial;
-background-image: url("petuh.png");
+background-image: url("petuh.jpg");
 background-repeat: repeat-x;
 background-position: bottom;
 }
