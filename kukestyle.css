@@ -1,8 +1,8 @@
 
 body{
-background-color: #e8e8e8;
+background-color: #e8e8e8; /* Cvet fona*/
 font-family: sans-serif, Helvetica, Arial;
-background-image: url("petuh.png");
+background-image: url("petuh.png"); /* Fon - kartinka*/
 background-repeat: repeat-x;
 background-position: bottom;
 }
@@ -25,7 +25,7 @@ width: 1000px;
 }
 td{
 text-align: center;
-background-color: #d8d8d8;
+background-color: #d8d8d8; /* cvet fona*/
 border:10px;
 border-style: double;
 border-color: #a8a8a8;
