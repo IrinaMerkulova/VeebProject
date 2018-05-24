@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
 body{
-background-color: #e8e8e8;
+background-color: #e8e8e8;/*цвет заднего фона*/
 font-family: sans-serif, Helvetica, Arial;
-background-image: url("petuh.png");
+background-image: url("petuh.png");/* картинка на задний фон*/
 background-repeat: repeat-x;
-background-position: bottom;
+background-position: bottom;/* позиция заднего фона - внизу*/
 }
 h1{
 text-align: center;
@@ -20,12 +20,12 @@ float: right;
 
 table{
 
-border:0;
+border:0;/* поля*/
 width: 1000px;
 
 }
 td{
-text-align: center;
+text-align: center;/* выравнивание текста по центру*/
 background-color: #d8d8d8;
 border:10px;
 border-style: double;
