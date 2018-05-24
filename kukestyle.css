@@ -3,7 +3,7 @@ background-color: #e8e8e8;
 font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
-background-position: bottom;
+background-position: bottom;   /* fon snizu*/
 }
 h1{
 text-align: center;
