@@ -6,6 +6,7 @@ background-repeat: repeat-x;
 background-position: bottom;
 }
 h1{
+	/*Заголовок*/
 text-align: center;
 letter-spacing: 0.6cm;
 }
@@ -74,9 +75,10 @@ border: 1px;
 border-style: solid;
 border-color: #a8a8a8;
 border-radius: 60px 60px 60px 60px;
-
+/*Радиус рамки вокруг текста*/
 
 font-family: georgia;
+/*Шрифт*/
 }
 
 
