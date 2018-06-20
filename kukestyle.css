@@ -4,6 +4,7 @@ font-family: sans-serif, Helvetica, Arial;
 background-image: url("petuh.png");
 background-repeat: repeat-x;
 background-position: bottom;
+font-size:25px;
 }
 h1{
 	/*Заголовок*/
