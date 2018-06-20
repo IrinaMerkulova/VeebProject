@@ -7,7 +7,6 @@ background-position: bottom;
 font-size:25px;
 }
 h1{
-	/*Заголовок*/
 text-align: right;
 letter-spacing: 0.6cm;
 }
@@ -54,17 +53,16 @@ border-image: url("raamipilt.png") 33% repeat;
 a:link, a:active, a:visited{
 color: #787878;
 font-family: serif;
-text-decoration: none; /*podcherkivanie teksta*/
+text-decoration: none;
 }
 
 a:hover{
 color: #282828;
 font-family: serif;
-text-decoration: underline; /*podcherkivanie teksta*/
+text-decoration: underline;
 font-size: 20;
 }
 li {
-/*vmesto tochek - malen'kie kartinki*/
 list-style-image: url("raamipilt.png");
 line-height: 100%;
 list-style-position: center;
@@ -76,10 +74,8 @@ border: 1px;
 border-style: solid;
 border-color: #a8a8a8;
 border-radius: 60px 60px 60px 60px;
-/*Радиус рамки вокруг текста*/
 
 font-family: georgia;
-/*Шрифт*/
 }
 
 
